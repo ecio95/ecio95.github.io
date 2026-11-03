@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>n8n Faceless Factory</title>
+<style>
+  :root { color-scheme: light dark; --bg:#ffffff; --fg:#1a1a1a; --muted:#5b5b5b; --line:#e3e3e3; --accent:#b4451f; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141414; --fg:#ededed; --muted:#a0a0a0; --line:#2c2c2c; --accent:#e08055; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 4rem 16px 6rem; }
+  h1 { font-size: 1.9rem; line-height:1.2; margin:0 0 .4rem; letter-spacing:-.01em; }
+  .sub { color: var(--muted); margin:0 0 2.5rem; }
+  h2 { font-size: 1.05rem; margin: 2.2rem 0 .6rem; }
+  p { margin: 0 0 1rem; }
+  ul { margin: 0 0 1rem; padding-left: 1.2rem; }
+  li { margin-bottom: .35rem; }
+  a { color: var(--accent); }
+  footer { margin-top: 3rem; padding-top: 1.2rem; border-top:1px solid var(--line);
+           color: var(--muted); font-size:.9rem; }
+  nav a { margin-right: 1rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>n8n Faceless Factory</h1>
+  <p class="sub">Automazione personale per la produzione e la pubblicazione di video divulgativi.</p>
+
+  <p>n8n Faceless Factory è un'automazione privata, costruita con n8n e usata da una sola persona:
+  il proprietario del canale YouTube su cui pubblica. Non è un servizio offerto a terzi e non ha
+  utenti oltre al suo autore.</p>
+
+  <h2>Cosa fa</h2>
+  <ul>
+    <li>genera il testo di brevi video divulgativi in italiano a partire da una rotazione di argomenti;</li>
+    <li>produce voce sintetica e immagini, e monta il video con FFmpeg sul computer dell'autore;</li>
+    <li>carica il video finito sul canale YouTube dell'autore, con titolo, descrizione e tag.</li>
+  </ul>
+
+  <h2>Quali permessi Google usa</h2>
+  <p>L'applicazione richiede l'accesso a YouTube Data API v3 con il solo scopo di caricare video
+  sul canale del proprietario dell'account che concede l'autorizzazione. Non legge, non modifica e
+  non elimina contenuti di altri utenti.</p>
+
+  <h2>Contatti</h2>
+  <p>Per qualsiasi richiesta: <a href="mailto:alessiomaestri22@gmail.com">alessiomaestri22@gmail.com</a></p>
+
+  <nav><a href="./privacy.html">Informativa privacy</a><a href="./terms.html">Termini di servizio</a></nav>
+
+  <footer>Ultimo aggiornamento: 3 novembre 2026</footer>
+</main>
+</body>
+</html>
